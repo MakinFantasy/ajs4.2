@@ -20,6 +20,7 @@
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
+    "@webpack-cli/serve": "^1.7.0",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
@@ -37,6 +38,5 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
-  },
-  "type": "module"
+  }
 }
