@@ -1,5 +1,6 @@
 export default function sortByHeath (characters) {
-	const collection = collect(characters);
-	const sorted = collection.sortByDesc('health');
-	return sorted.all();
+	characters.sort( function(a, b) {
+		return b.health - a.health
+	} );
+	return characters;
 }
